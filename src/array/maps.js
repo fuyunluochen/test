@@ -21,6 +21,4 @@ function maps2(x) {
 
 }
 
-console.log(maps2([1, 2, 3]))
-console.log(maps([1, 2, 3]))
-console.log(maps([1, 2, 3, 4, 5]))
+module.exports = {maps, maps2};

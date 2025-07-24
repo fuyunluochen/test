@@ -17,4 +17,4 @@ function nbYear(p0, percent, aug, p) {
   return Number(years);
 }
 
-console.log(nbYear(1000, 2, 50, 1200))
+module.exports = nbYear;
