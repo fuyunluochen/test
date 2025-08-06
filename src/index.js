@@ -8,8 +8,6 @@ const {countSheeps, countSheeps2} = require('./array/countSheeps');
 const nbYear = require('./math/nbYear');
 const solution = require('./math/solution');
 const summation = require('./math/summation');
-const {makeNegative, makeNegative2} = require('./math/makeNegative');
-
 // 测试数组相关函数
 console.log('Maps:', maps([1, 2, 3]));
 console.log('Maps2:', maps2([1, 2, 3]));
@@ -23,5 +21,4 @@ console.log('Count Sheeps2:', countSheeps2([true, false, true]));
 console.log('NB Year:', nbYear(1000, 2, 50, 1200));
 console.log('Solution:', solution(10));
 console.log('Summation:', summation(8));
-console.log('Make Negative:', makeNegative(5));
-console.log('Make Negative2:', makeNegative2(5));
+
